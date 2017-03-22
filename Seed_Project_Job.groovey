@@ -1,0 +1,11 @@
+job('Seed_Project') {
+    scm {
+        git('https://github.com/shashi193/seed_job.git', 'master')
+    }    
+    triggers {
+        githubPush()
+    }
+    steps {
+        shell ('echo "Shashi"')
+    }
+}
