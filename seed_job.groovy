@@ -10,3 +10,4 @@ multibranchPipelineJob('Multi_Job_Test') {
             numToKeep(20)
         }
     }
+}
